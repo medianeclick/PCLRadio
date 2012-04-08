@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F214AF21531DF43000B4BBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F214AF11531DF43000B4BBB /* UIKit.framework */; };
+		9F214AF41531DF43000B4BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F214AF31531DF43000B4BBB /* Foundation.framework */; };
+		9F214AF61531DF43000B4BBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F214AF51531DF43000B4BBB /* CoreGraphics.framework */; };
+		9F214AFC1531DF43000B4BBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F214AFA1531DF43000B4BBB /* InfoPlist.strings */; };
+		9F214AFE1531DF43000B4BBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F214AFD1531DF43000B4BBB /* main.m */; };
+		9F214B021531DF43000B4BBB /* medAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F214B011531DF43000B4BBB /* medAppDelegate.m */; };
+		9F214B051531DF43000B4BBB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F214B031531DF43000B4BBB /* MainStoryboard.storyboard */; };
+		9F214B081531DF43000B4BBB /* medFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F214B071531DF43000B4BBB /* medFirstViewController.m */; };
+		9F214B0A1531DF43000B4BBB /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F214B091531DF43000B4BBB /* first.png */; };
+		9F214B0C1531DF43000B4BBB /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F214B0B1531DF43000B4BBB /* first@2x.png */; };
+		9F214B0F1531DF43000B4BBB /* medSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F214B0E1531DF43000B4BBB /* medSecondViewController.m */; };
+		9F214B111531DF43000B4BBB /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F214B101531DF43000B4BBB /* second.png */; };
+		9F214B131531DF43000B4BBB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F214B121531DF43000B4BBB /* second@2x.png */; };
+		9F214B1B1531DF43000B4BBB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F214B1A1531DF43000B4BBB /* SenTestingKit.framework */; };
+		9F214B1C1531DF43000B4BBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F214AF11531DF43000B4BBB /* UIKit.framework */; };
+		9F214B1D1531DF43000B4BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F214AF31531DF43000B4BBB /* Foundation.framework */; };
+		9F214B251531DF43000B4BBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F214B231531DF43000B4BBB /* InfoPlist.strings */; };
+		9F214B281531DF43000B4BBB /* PCLRadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F214B271531DF43000B4BBB /* PCLRadioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F214B1E1531DF43000B4BBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F214AE41531DF42000B4BBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F214AEC1531DF43000B4BBB;
+			remoteInfo = PCLRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F214AED1531DF43000B4BBB /* PCLRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCLRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F214AF11531DF43000B4BBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F214AF31531DF43000B4BBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F214AF51531DF43000B4BBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F214AF91531DF43000B4BBB /* PCLRadio-Info.plist */ = {isa = PBXFileReference; path = "PCLRadio-Info.plist"; sourceTree = "<group>"; };
+		9F214AFB1531DF43000B4BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F214AFD1531DF43000B4BBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F214AFF1531DF43000B4BBB /* PCLRadio-Prefix.pch */ = {isa = PBXFileReference; path = "PCLRadio-Prefix.pch"; sourceTree = "<group>"; };
+		9F214B001531DF43000B4BBB /* medAppDelegate.h */ = {isa = PBXFileReference; path = medAppDelegate.h; sourceTree = "<group>"; };
+		9F214B011531DF43000B4BBB /* medAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = medAppDelegate.m; sourceTree = "<group>"; };
+		9F214B041531DF43000B4BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9F214B061531DF43000B4BBB /* medFirstViewController.h */ = {isa = PBXFileReference; path = medFirstViewController.h; sourceTree = "<group>"; };
+		9F214B071531DF43000B4BBB /* medFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = medFirstViewController.m; sourceTree = "<group>"; };
+		9F214B091531DF43000B4BBB /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		9F214B0B1531DF43000B4BBB /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		9F214B0D1531DF43000B4BBB /* medSecondViewController.h */ = {isa = PBXFileReference; path = medSecondViewController.h; sourceTree = "<group>"; };
+		9F214B0E1531DF43000B4BBB /* medSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = medSecondViewController.m; sourceTree = "<group>"; };
+		9F214B101531DF43000B4BBB /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		9F214B121531DF43000B4BBB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		9F214B191531DF43000B4BBB /* PCLRadioTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCLRadioTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F214B1A1531DF43000B4BBB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9F214B221531DF43000B4BBB /* PCLRadioTests-Info.plist */ = {isa = PBXFileReference; path = "PCLRadioTests-Info.plist"; sourceTree = "<group>"; };
+		9F214B241531DF43000B4BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F214B261531DF43000B4BBB /* PCLRadioTests.h */ = {isa = PBXFileReference; path = PCLRadioTests.h; sourceTree = "<group>"; };
+		9F214B271531DF43000B4BBB /* PCLRadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCLRadioTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F214AEA1531DF43000B4BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F214AF21531DF43000B4BBB /* UIKit.framework in Frameworks */,
+				9F214AF41531DF43000B4BBB /* Foundation.framework in Frameworks */,
+				9F214AF61531DF43000B4BBB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F214B151531DF43000B4BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F214B1B1531DF43000B4BBB /* SenTestingKit.framework in Frameworks */,
+				9F214B1C1531DF43000B4BBB /* UIKit.framework in Frameworks */,
+				9F214B1D1531DF43000B4BBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F214AE21531DF42000B4BBB = {
+			isa = PBXGroup;
+			children = (
+				9F214AF71531DF43000B4BBB /* PCLRadio */,
+				9F214B201531DF43000B4BBB /* PCLRadioTests */,
+				9F214AF01531DF43000B4BBB /* Frameworks */,
+				9F214AEE1531DF43000B4BBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F214AEE1531DF43000B4BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F214AED1531DF43000B4BBB /* PCLRadio.app */,
+				9F214B191531DF43000B4BBB /* PCLRadioTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F214AF01531DF43000B4BBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F214AF11531DF43000B4BBB /* UIKit.framework */,
+				9F214AF31531DF43000B4BBB /* Foundation.framework */,
+				9F214AF51531DF43000B4BBB /* CoreGraphics.framework */,
+				9F214B1A1531DF43000B4BBB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F214AF71531DF43000B4BBB /* PCLRadio */ = {
+			isa = PBXGroup;
+			children = (
+				9F214B001531DF43000B4BBB /* medAppDelegate.h */,
+				9F214B011531DF43000B4BBB /* medAppDelegate.m */,
+				9F214B031531DF43000B4BBB /* MainStoryboard.storyboard */,
+				9F214B061531DF43000B4BBB /* medFirstViewController.h */,
+				9F214B071531DF43000B4BBB /* medFirstViewController.m */,
+				9F214B091531DF43000B4BBB /* first.png */,
+				9F214B0B1531DF43000B4BBB /* first@2x.png */,
+				9F214B0D1531DF43000B4BBB /* medSecondViewController.h */,
+				9F214B0E1531DF43000B4BBB /* medSecondViewController.m */,
+				9F214B101531DF43000B4BBB /* second.png */,
+				9F214B121531DF43000B4BBB /* second@2x.png */,
+				9F214AF81531DF43000B4BBB /* Supporting Files */,
+			);
+			path = PCLRadio;
+			sourceTree = "<group>";
+		};
+		9F214AF81531DF43000B4BBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F214AF91531DF43000B4BBB /* PCLRadio-Info.plist */,
+				9F214AFA1531DF43000B4BBB /* InfoPlist.strings */,
+				9F214AFD1531DF43000B4BBB /* main.m */,
+				9F214AFF1531DF43000B4BBB /* PCLRadio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F214B201531DF43000B4BBB /* PCLRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F214B261531DF43000B4BBB /* PCLRadioTests.h */,
+				9F214B271531DF43000B4BBB /* PCLRadioTests.m */,
+				9F214B211531DF43000B4BBB /* Supporting Files */,
+			);
+			path = PCLRadioTests;
+			sourceTree = "<group>";
+		};
+		9F214B211531DF43000B4BBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F214B221531DF43000B4BBB /* PCLRadioTests-Info.plist */,
+				9F214B231531DF43000B4BBB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F214AEC1531DF43000B4BBB /* PCLRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F214B2B1531DF43000B4BBB /* Build configuration list for PBXNativeTarget "PCLRadio" */;
+			buildPhases = (
+				9F214AE91531DF43000B4BBB /* Sources */,
+				9F214AEA1531DF43000B4BBB /* Frameworks */,
+				9F214AEB1531DF43000B4BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCLRadio;
+			productName = PCLRadio;
+			productReference = 9F214AED1531DF43000B4BBB /* PCLRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F214B181531DF43000B4BBB /* PCLRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F214B2E1531DF43000B4BBB /* Build configuration list for PBXNativeTarget "PCLRadioTests" */;
+			buildPhases = (
+				9F214B141531DF43000B4BBB /* Sources */,
+				9F214B151531DF43000B4BBB /* Frameworks */,
+				9F214B161531DF43000B4BBB /* Resources */,
+				9F214B171531DF43000B4BBB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F214B1F1531DF43000B4BBB /* PBXTargetDependency */,
+			);
+			name = PCLRadioTests;
+			productName = PCLRadioTests;
+			productReference = 9F214B191531DF43000B4BBB /* PCLRadioTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F214AE41531DF42000B4BBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9F214AE71531DF42000B4BBB /* Build configuration list for PBXProject "PCLRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F214AE21531DF42000B4BBB;
+			productRefGroup = 9F214AEE1531DF43000B4BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F214AEC1531DF43000B4BBB /* PCLRadio */,
+				9F214B181531DF43000B4BBB /* PCLRadioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F214AEB1531DF43000B4BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F214AFC1531DF43000B4BBB /* InfoPlist.strings in Resources */,
+				9F214B051531DF43000B4BBB /* MainStoryboard.storyboard in Resources */,
+				9F214B0A1531DF43000B4BBB /* first.png in Resources */,
+				9F214B0C1531DF43000B4BBB /* first@2x.png in Resources */,
+				9F214B111531DF43000B4BBB /* second.png in Resources */,
+				9F214B131531DF43000B4BBB /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F214B161531DF43000B4BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F214B251531DF43000B4BBB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F214B171531DF43000B4BBB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F214AE91531DF43000B4BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F214AFE1531DF43000B4BBB /* main.m in Sources */,
+				9F214B021531DF43000B4BBB /* medAppDelegate.m in Sources */,
+				9F214B081531DF43000B4BBB /* medFirstViewController.m in Sources */,
+				9F214B0F1531DF43000B4BBB /* medSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F214B141531DF43000B4BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F214B281531DF43000B4BBB /* PCLRadioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F214B1F1531DF43000B4BBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F214AEC1531DF43000B4BBB /* PCLRadio */;
+			targetProxy = 9F214B1E1531DF43000B4BBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F214AFA1531DF43000B4BBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F214AFB1531DF43000B4BBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F214B031531DF43000B4BBB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F214B041531DF43000B4BBB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		9F214B231531DF43000B4BBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F214B241531DF43000B4BBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F214B291531DF43000B4BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F214B2A1531DF43000B4BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F214B2C1531DF43000B4BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCLRadio/PCLRadio-Prefix.pch";
+				INFOPLIST_FILE = "PCLRadio/PCLRadio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F214B2D1531DF43000B4BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCLRadio/PCLRadio-Prefix.pch";
+				INFOPLIST_FILE = "PCLRadio/PCLRadio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9F214B2F1531DF43000B4BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PCLRadio.app/PCLRadio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCLRadio/PCLRadio-Prefix.pch";
+				INFOPLIST_FILE = "PCLRadioTests/PCLRadioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9F214B301531DF43000B4BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PCLRadio.app/PCLRadio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCLRadio/PCLRadio-Prefix.pch";
+				INFOPLIST_FILE = "PCLRadioTests/PCLRadioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F214AE71531DF42000B4BBB /* Build configuration list for PBXProject "PCLRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F214B291531DF43000B4BBB /* Debug */,
+				9F214B2A1531DF43000B4BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F214B2B1531DF43000B4BBB /* Build configuration list for PBXNativeTarget "PCLRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F214B2C1531DF43000B4BBB /* Debug */,
+				9F214B2D1531DF43000B4BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F214B2E1531DF43000B4BBB /* Build configuration list for PBXNativeTarget "PCLRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F214B2F1531DF43000B4BBB /* Debug */,
+				9F214B301531DF43000B4BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F214AE41531DF42000B4BBB /* Project object */;
+}
