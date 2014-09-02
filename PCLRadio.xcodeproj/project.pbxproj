@@ -25,6 +25,16 @@
 		9F214B1D1531DF43000B4BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F214AF31531DF43000B4BBB /* Foundation.framework */; };
 		9F214B251531DF43000B4BBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F214B231531DF43000B4BBB /* InfoPlist.strings */; };
 		9F214B281531DF43000B4BBB /* PCLRadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F214B271531DF43000B4BBB /* PCLRadioTests.m */; };
+		9F214B321531DF7D000B4BBB /* pclradio57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F214B311531DF7D000B4BBB /* pclradio57x57.png */; };
+		9F214B341531DF88000B4BBB /* pclradio114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F214B331531DF88000B4BBB /* pclradio114x114.png */; };
+		9F214B371531E5A7000B4BBB /* pclradio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F214B361531E5A7000B4BBB /* pclradio.jpg */; };
+		9F214B391531E5DC000B4BBB /* pclradio_510x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F214B381531E5DC000B4BBB /* pclradio_510x60.png */; };
+		9FB238BA153241B900B5BF09 /* audio_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FB238B9153241B900B5BF09 /* audio_icon.jpg */; };
+		9FB238C1153260F700B5BF09 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB238C0153260F700B5BF09 /* play.png */; };
+		9FB238C31532612200B5BF09 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB238C21532612200B5BF09 /* record.png */; };
+		9FB238C51532613000B5BF09 /* rss.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB238C41532613000B5BF09 /* rss.png */; };
+		9FB238C71532616600B5BF09 /* newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB238C61532616600B5BF09 /* newspaper.png */; };
+		9FB238C9153265AC00B5BF09 /* briefcase.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB238C8153265AC00B5BF09 /* briefcase.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,27 +52,37 @@
 		9F214AF11531DF43000B4BBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9F214AF31531DF43000B4BBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F214AF51531DF43000B4BBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9F214AF91531DF43000B4BBB /* PCLRadio-Info.plist */ = {isa = PBXFileReference; path = "PCLRadio-Info.plist"; sourceTree = "<group>"; };
+		9F214AF91531DF43000B4BBB /* PCLRadio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCLRadio-Info.plist"; sourceTree = "<group>"; };
 		9F214AFB1531DF43000B4BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F214AFD1531DF43000B4BBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9F214AFF1531DF43000B4BBB /* PCLRadio-Prefix.pch */ = {isa = PBXFileReference; path = "PCLRadio-Prefix.pch"; sourceTree = "<group>"; };
-		9F214B001531DF43000B4BBB /* medAppDelegate.h */ = {isa = PBXFileReference; path = medAppDelegate.h; sourceTree = "<group>"; };
+		9F214AFF1531DF43000B4BBB /* PCLRadio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCLRadio-Prefix.pch"; sourceTree = "<group>"; };
+		9F214B001531DF43000B4BBB /* medAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = medAppDelegate.h; sourceTree = "<group>"; };
 		9F214B011531DF43000B4BBB /* medAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = medAppDelegate.m; sourceTree = "<group>"; };
 		9F214B041531DF43000B4BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		9F214B061531DF43000B4BBB /* medFirstViewController.h */ = {isa = PBXFileReference; path = medFirstViewController.h; sourceTree = "<group>"; };
+		9F214B061531DF43000B4BBB /* medFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = medFirstViewController.h; sourceTree = "<group>"; };
 		9F214B071531DF43000B4BBB /* medFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = medFirstViewController.m; sourceTree = "<group>"; };
 		9F214B091531DF43000B4BBB /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		9F214B0B1531DF43000B4BBB /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		9F214B0D1531DF43000B4BBB /* medSecondViewController.h */ = {isa = PBXFileReference; path = medSecondViewController.h; sourceTree = "<group>"; };
+		9F214B0D1531DF43000B4BBB /* medSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = medSecondViewController.h; sourceTree = "<group>"; };
 		9F214B0E1531DF43000B4BBB /* medSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = medSecondViewController.m; sourceTree = "<group>"; };
 		9F214B101531DF43000B4BBB /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		9F214B121531DF43000B4BBB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		9F214B191531DF43000B4BBB /* PCLRadioTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCLRadioTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F214B1A1531DF43000B4BBB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9F214B221531DF43000B4BBB /* PCLRadioTests-Info.plist */ = {isa = PBXFileReference; path = "PCLRadioTests-Info.plist"; sourceTree = "<group>"; };
+		9F214B221531DF43000B4BBB /* PCLRadioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCLRadioTests-Info.plist"; sourceTree = "<group>"; };
 		9F214B241531DF43000B4BBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9F214B261531DF43000B4BBB /* PCLRadioTests.h */ = {isa = PBXFileReference; path = PCLRadioTests.h; sourceTree = "<group>"; };
+		9F214B261531DF43000B4BBB /* PCLRadioTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCLRadioTests.h; sourceTree = "<group>"; };
 		9F214B271531DF43000B4BBB /* PCLRadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCLRadioTests.m; sourceTree = "<group>"; };
+		9F214B311531DF7D000B4BBB /* pclradio57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pclradio57x57.png; sourceTree = "<group>"; };
+		9F214B331531DF88000B4BBB /* pclradio114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pclradio114x114.png; sourceTree = "<group>"; };
+		9F214B361531E5A7000B4BBB /* pclradio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pclradio.jpg; path = ../../pequefamily/medianeclick/pclradio.jpg; sourceTree = "<group>"; };
+		9F214B381531E5DC000B4BBB /* pclradio_510x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pclradio_510x60.png; path = ../../pequefamily/medianeclick/pclradio_510x60.png; sourceTree = "<group>"; };
+		9FB238B9153241B900B5BF09 /* audio_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = audio_icon.jpg; path = ../../pequefamily/medianeclick/audio_icon.jpg; sourceTree = "<group>"; };
+		9FB238C0153260F700B5BF09 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = ../../../Downloads/iphone_toolbar_icons/standard/play.png; sourceTree = "<group>"; };
+		9FB238C21532612200B5BF09 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record.png; path = ../../../Downloads/iphone_toolbar_icons/standard/record.png; sourceTree = "<group>"; };
+		9FB238C41532613000B5BF09 /* rss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rss.png; path = ../../../Downloads/iphone_toolbar_icons/standard/rss.png; sourceTree = "<group>"; };
+		9FB238C61532616600B5BF09 /* newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newspaper.png; path = ../../../Downloads/iphone_toolbar_icons/standard/newspaper.png; sourceTree = "<group>"; };
+		9FB238C8153265AC00B5BF09 /* briefcase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = briefcase.png; path = ../../../Downloads/iphone_toolbar_icons/standard/briefcase.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +112,7 @@
 		9F214AE21531DF42000B4BBB = {
 			isa = PBXGroup;
 			children = (
+				9F214B351531E555000B4BBB /* Images */,
 				9F214AF71531DF43000B4BBB /* PCLRadio */,
 				9F214B201531DF43000B4BBB /* PCLRadioTests */,
 				9F214AF01531DF43000B4BBB /* Frameworks */,
@@ -166,6 +187,23 @@
 				9F214B231531DF43000B4BBB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F214B351531E555000B4BBB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9FB238C8153265AC00B5BF09 /* briefcase.png */,
+				9FB238C61532616600B5BF09 /* newspaper.png */,
+				9FB238C41532613000B5BF09 /* rss.png */,
+				9FB238C21532612200B5BF09 /* record.png */,
+				9FB238C0153260F700B5BF09 /* play.png */,
+				9FB238B9153241B900B5BF09 /* audio_icon.jpg */,
+				9F214B381531E5DC000B4BBB /* pclradio_510x60.png */,
+				9F214B361531E5A7000B4BBB /* pclradio.jpg */,
+				9F214B311531DF7D000B4BBB /* pclradio57x57.png */,
+				9F214B331531DF88000B4BBB /* pclradio114x114.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +282,16 @@
 				9F214B0C1531DF43000B4BBB /* first@2x.png in Resources */,
 				9F214B111531DF43000B4BBB /* second.png in Resources */,
 				9F214B131531DF43000B4BBB /* second@2x.png in Resources */,
+				9F214B321531DF7D000B4BBB /* pclradio57x57.png in Resources */,
+				9F214B341531DF88000B4BBB /* pclradio114x114.png in Resources */,
+				9F214B371531E5A7000B4BBB /* pclradio.jpg in Resources */,
+				9F214B391531E5DC000B4BBB /* pclradio_510x60.png in Resources */,
+				9FB238BA153241B900B5BF09 /* audio_icon.jpg in Resources */,
+				9FB238C1153260F700B5BF09 /* play.png in Resources */,
+				9FB238C31532612200B5BF09 /* record.png in Resources */,
+				9FB238C51532613000B5BF09 /* rss.png in Resources */,
+				9FB238C71532616600B5BF09 /* newspaper.png in Resources */,
+				9FB238C9153265AC00B5BF09 /* briefcase.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +499,7 @@
 				9F214B2D1531DF43000B4BBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F214B2E1531DF43000B4BBB /* Build configuration list for PBXNativeTarget "PCLRadioTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +508,7 @@
 				9F214B301531DF43000B4BBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

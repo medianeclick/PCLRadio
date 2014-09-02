@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface medFirstViewController : UIViewController
+@interface medFirstViewController : UIViewController{
+    
+    
+    
+    IBOutlet UIWebView *playerView;
+    
+}
 
 @end

@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface medSecondViewController : UIViewController
+@interface medSecondViewController : UIViewController <UIWebViewDelegate>{
+    
+    IBOutlet UIWebView *newsView;
+    IBOutlet UIActivityIndicatorView *loadingView;    
+}
 
 @end

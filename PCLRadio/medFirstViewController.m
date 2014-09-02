@@ -22,6 +22,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString *playerEmbeded;    
+    
+        
+    playerEmbeded=[[NSString alloc] initWithString:@"<iframe width='300' height='193' src='http://cdn.livestream.com/embed/pclradio?layout=4&color=0xe7e7e7&autoPlay=false&mute=false&iconColorOver=0x888888&iconColor=0x777777&allowchat=true&height=300&width=193' style='border:0;outline:0' frameborder='0' scrolling='no'></iframe>"]; 
+    
+        
+    [playerView loadHTMLString:playerEmbeded baseURL:nil];
 }
 
 - (void)viewDidUnload
@@ -29,6 +36,7 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    playerView = nil;
 }
 
 - (void)viewWillAppear:(BOOL)animated
